@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.textos {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.graficos {
+    margin-bottom: 2rem;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+.listas {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #6A1B9A;
+}
+
+/* Estilos para o botão de voltar */
+.voltar-btn {
+    background-color: #6A1B9A;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    width: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 40px;
+}
+
+.voltar-btn:hover {
+    background-color: #4caf50;
+}
+
+/* Estilos para a tabela de 30 dias */
+.table-container {
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #6A1B9A;
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:nth-child(even) {
+    background-color: #f1f1f1; /* Cor alternada para as linhas */
+}
+
+tr:hover {
+    background-color: #f0f0f0;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios de Progresso</title>
+    <link rel="icon" href="img/rouiner -ampulheta.png">
+    <link rel="stylesheet" href="relatoriosPGS.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatórios de Progresso</h1>
+    </header>
+    
+    <button class="voltar-btn" onclick="window.history.back()">Voltar</button>
+
+    <main>
+        <section class="report">
+            <h2>Relatório Mensal</h2>
+            <div class="chart-container">
+                <canvas id="activityChart"></canvas>
+            </div>
+            <p>Frequência de atividades no mês:</p>
+            <table class="table-container">
+                <caption>Relatório de Atividades - 30 Dias</caption>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Atividade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Preencher com dados dinâmicos via JavaScript -->
+                    <tr>
+                        <td>1</td>
+                        <td>Exemplo de Atividade</td>
+                        <td>Concluída</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Exemplo de Atividade</td>
+                        <td>Não Concluída</td>
+                    </tr>
+                    <!-- Adicionar mais linhas conforme necessário -->
+                </tbody>
+            </table>
+        </section>        
+    </main>
+    <script src="relatoriosPGS.js"></script>
+</body>
+</html>
